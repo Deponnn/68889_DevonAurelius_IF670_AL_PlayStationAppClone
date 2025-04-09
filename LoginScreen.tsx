@@ -6,7 +6,7 @@ import { StackNavigationProp } from '@react-navigation/stack';
 type RootStackParamList = {
   Login: undefined;
   Register: undefined;
-  Home: undefined;  // Menambahkan Home ke dalam param list navigasi
+  Home: undefined;  
 };
 
 type LoginScreenNavigationProp = StackNavigationProp<RootStackParamList, 'Login'>;
